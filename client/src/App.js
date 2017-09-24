@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import NoMatch from './components/NoMatch';
-import Navbar from './components/NoMatch';
+import Navbar from './components/Navbar';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 
