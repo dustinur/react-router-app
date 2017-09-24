@@ -5,6 +5,7 @@ import About from './components/About';
 import NoMatch from './components/NoMatch';
 import Navbar from './components/Navbar';
 import Login from './components/Login';
+import Product from './components/Product';
 import Dashboard from './components/Dashboard';
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
       <Route path="/about" component={About} />
       <Route path="/login" component={Login} />
       <Route path="/dashboard" component={Dashboard} />
+      <Route path="/products/:id" component={Product} />
       <Route component={NoMatch} />
     </Switch>
   </div>
